@@ -1,6 +1,6 @@
 @section("title", "分配权限")
 
-@extends("admin::layouts.admin")
+@extends("admin::public.layout")
 
 @section("breadcrumb")
     <div class="admin-breadcrumb">

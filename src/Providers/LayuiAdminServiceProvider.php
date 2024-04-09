@@ -45,8 +45,9 @@ class LayuiAdminServiceProvider extends ServiceProvider
     private function viewComposer()
     {
         View::composer(
-            'admin::layouts.admin', 'Moell\LayuiAdmin\ViewComposers\AdminComposer'
+            'admin::index', 'Moell\LayuiAdmin\ViewComposers\AdminComposer'
         );
+        view()->share('siteName' ,'nft');
     }
 
     private function registerMigrations()

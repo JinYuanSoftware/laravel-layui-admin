@@ -1,6 +1,6 @@
 @section("title", "导航菜单")
 
-@extends("admin::layouts.admin")
+@extends("admin::public.layout")
 
 @section("breadcrumb")
     <div class="admin-breadcrumb">
